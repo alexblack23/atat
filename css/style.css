@@ -31,7 +31,7 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) {
     #intro { 
     background-attachment: unset;
-        height: 550px;
+        height: 450px;
         margin-top: 56px;
     }
 }
