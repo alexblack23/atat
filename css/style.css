@@ -27,12 +27,15 @@ textarea {
 
 
 @media only screen
-and (min-device-width : 414px)
+and (min-device-width : 370px)
 and (max-device-width : 736px) {
     #intro { 
     background-attachment: unset;
         height: 450px;
         margin-top: 56px;
+    }
+    .carousel-caption {
+        display: none;
     }
 }
 
