@@ -38,16 +38,13 @@ h2 {
 
 
 @media only screen
-and (min-device-width : 462px)
-and (max-device-width : 526px) {
+and (min-device-width : 370px)
+and (max-device-width : 736px) {
     #intro { 
     background-attachment: unset;
         height: 450px;
         margin-top: 56px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
+
     }
     .carousel-caption {
         display: none;
