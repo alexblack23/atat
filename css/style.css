@@ -32,7 +32,9 @@ h2 {
     font-size:xx-large;
     color: #004080;
 }
-
+.title_margin {
+    margin-top: 100vh;
+}
 
 
 
@@ -44,7 +46,6 @@ and (max-device-width : 736px) {
     background-attachment: unset;
         height: 450px;
         margin-top: 56px;
-
     }
     .carousel-caption {
         display: none;
