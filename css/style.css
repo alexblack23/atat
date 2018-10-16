@@ -35,13 +35,16 @@ h2 {
 .title_margin {
     margin-top: 100vh;
 }
+.diploms-sm {
+    display: none;
+}
 
 
 
 
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 736px) {
+and (max-device-width : 435px) {
     #intro { 
     background-attachment: unset;
         height: 450px;
@@ -49,6 +52,19 @@ and (max-device-width : 736px) {
     }
     .carousel-caption {
         display: none;
+    }
+    .diploms-lg {
+        display: none;
+    }
+    .diploms-sm {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .main_screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
