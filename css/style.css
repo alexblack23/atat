@@ -40,7 +40,7 @@ h2 {
 
 
 @media only screen
-and (min-device-width : 370px)
+and (min-device-width : 320px)
 and (max-device-width : 736px) {
     #intro { 
     background-attachment: unset;
